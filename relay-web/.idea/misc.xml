@@ -3,6 +3,21 @@
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
+  <component name="FacetAutodetectingManager">
+    <autodetection-disabled>
+      <facet-type id="Clojure">
+        <modules>
+          <module name="relay-lab">
+            <files>
+              <file url="file://$PROJECT_DIR$/../relay-lab/src/main/clojure/app.clj" />
+              <file url="file://$PROJECT_DIR$/../relay-lab/src/scripts/runtests.clj" />
+              <file url="file://$PROJECT_DIR$/../relay-lab/src/test/clojure/testapp.clj" />
+            </files>
+          </module>
+        </modules>
+      </facet-type>
+    </autodetection-disabled>
+  </component>
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" />
     <option name="OPTION_SCOPE" value="protected" />

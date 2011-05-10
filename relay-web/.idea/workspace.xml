@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0f42a21-ce66-4ca5-bc90-c288078804d2" name="Default" comment="" />
+    <list default="true" id="a0f42a21-ce66-4ca5-bc90-c288078804d2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/clojure/app.clj" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/clojure/org/relay/http/handlers/discard_server_handler.clj" afterPath="$PROJECT_DIR$/src/main/clojure/org/relay/http/handlers/discard_server_handler.clj" />
+    </list>
     <ignored path="relay-web.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -107,7 +111,7 @@
       <file leaf-file-name="discard_server_handler.clj" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/clojure/org/relay/http/handlers/discard_server_handler.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="21" selection-start="578" selection-end="578" vertical-scroll-proportion="0.35172415">
+            <state line="22" column="9" selection-start="825" selection-end="825" vertical-scroll-proportion="0.45517242">
               <folding />
             </state>
           </provider>
@@ -162,7 +166,7 @@
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -656,7 +660,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/clojure/org/relay/http/handlers/discard_server_handler.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="578" selection-end="578" vertical-scroll-proportion="0.35172415">
+        <state line="22" column="9" selection-start="825" selection-end="825" vertical-scroll-proportion="0.45517242">
           <folding />
         </state>
       </provider>

@@ -11,14 +11,13 @@
 
 
 
-(def discard-server
+(def discard-server-handler
   (proxy [SimpleChannelHandler] []
     (messageReceived [channel-handler-context event]
       (let [buf (cast ChannelBuffer (. event getMessage))]
         (while (. buf readable)
             (println (cast char (. buf readByte)))
-          )
-        ))
+          )))
     (exceptionCaught [channel-handler-context exception-event]
       (println "Discard Server ran into a problem processing a request: " exception-event)
       )))
@@ -26,7 +25,7 @@
 (def channel-pipeline-factory
   (reify ChannelPipelineFactory
     (getPipeline [this]
-      (Channels/pipeline discard-server))))
+      (Channels/pipeline discard-server-handler))))
 
 (defn run-discard-server [port]
   (let [factory (NioServerSocketChannelFactory. (Executors/newCachedThreadPool) (Executors/newCachedThreadPool))

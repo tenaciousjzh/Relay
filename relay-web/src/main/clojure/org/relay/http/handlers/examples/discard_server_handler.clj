@@ -1,4 +1,4 @@
-(ns org.relay.http.handlers.discard-server-handler
+(ns org.relay.http.handlers.examples.discard-server-handler
   (:import
     (org.jboss.netty.bootstrap ServerBootstrap)
     (org.jboss.netty.buffer ChannelBuffer)
@@ -34,8 +34,9 @@
   contrived example mostly to determine how Clojure's interop facilities will work with Netty."
   [port]
   (let [factory (NioServerSocketChannelFactory. (Executors/newCachedThreadPool) (Executors/newCachedThreadPool))
-        bootstrap (ServerBootstrap. factory)
-        _ (. bootstrap (setPipelineFactory channel-pipeline-factory))
-        _ (. bootstrap (setOption "child.tcpNoDelay" true))
-        _ (. bootstrap (setOption "child.keepAlive" true))]
-    (. bootstrap (bind (InetSocketAddress. port)))))
+        bootstrap (ServerBootstrap. factory)]
+    (doto bootstrap
+      (.setPipelineFactory channel-pipeline-factory)
+      (.setOption "child.tcpNoDelay" true)
+      (.setOption "child.keepAlive" true)
+      (.bind (InetSocketAddress. port)))))

@@ -6,17 +6,19 @@
 (defn make-time-handler []
   (proxy [SimpleChannelHandler] []
     (messageReceived [channel-handler-context message-event]
-      (let [buf (cast ChannelBuffer (. message-event getMessage))
-            current-time-millis (. buf readInt * 1000)]
-        (println (Date. current-time-millis))
-        (..
-          (. message-event getChannel)
-          (close))))
+      (let [buf (cast ChannelBuffer (. message-event getMessage))]
+        (when (= (. buf readableBytes) 4)
+          (let [current-time-millis (. buf readInt * 1000)]
+            (println (Date. current-time-millis)))
+            (.. message-event
+              (getChannel)
+              (close))
+          )))
 
     (exceptionCaught [channel-handler-context exception-event]
-      (..
-        (. exception-event getCause)
+      (.. exception-event
+        (getCause)
         (printStackTrace))
-      (..
-        (. exception-event getChannel)
+      (.. exception-event
+        (getChannel)
         (close)))))

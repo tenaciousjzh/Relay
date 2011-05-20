@@ -13,8 +13,8 @@
   (proxy [SimpleChannelHandler] []
     (messageReceived [channel-handler-context event]
       (let [message (. event getMessage)]
-        (..
-          (. event getChannel)
+        (.. event
+          (getChannel)
           (write message)
           )))
     (exceptionCaught [channel-handler-context exception-event]
@@ -24,9 +24,6 @@
 (def channel-pipeline-factory
   (reify ChannelPipelineFactory
     (getPipeline [this]
-      ;had trouble passing in discard-handler to Channel/pipeline because it was a variadic function
-      ;e.g - it expected ChannelHandler... variadic argument. StackOverFlow had a great post on this:
-      ;http://stackoverflow.com/questions/5638541/problems-calling-a-variadic-java-function-from-clojure
       (Channels/pipeline (into-array ChannelHandler [discard-handler])))))
 
 (defn run-echo-server

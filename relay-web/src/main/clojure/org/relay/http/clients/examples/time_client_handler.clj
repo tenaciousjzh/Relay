@@ -6,12 +6,7 @@
 (defn make-time-handler []
   (proxy [SimpleChannelHandler] []
     (messageReceived [channel-handler-context message-event]
-      ;dynamicBuffer can determine variable length packets
-      ;which is useful when you don't know how many bytes were in the
-      ;message that was sent.
-      (let [buf (ChannelBuffers/dynamicBuffer)
-            m (cast ChannelBuffer (. message-event getMessage))
-            _ (. buf writeBytes m)
+      (let [buf (cast ChannelBuffer (. message-event getMessage))
             current-time-millis (. buf readInt * 1000)]
         (println (Date. current-time-millis))
         (.. message-event

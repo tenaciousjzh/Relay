@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.relay</groupId>
     <artifactId>relay-web</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <properties>
         <clojure.version>1.2.0</clojure.version>
         <netty.version>3.2.4.Final</netty.version>

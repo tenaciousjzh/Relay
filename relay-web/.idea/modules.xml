@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/relay-web.iml" filepath="$PROJECT_DIR$/relay-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../starting-line/starting-line.iml" filepath="$PROJECT_DIR$/../starting-line/starting-line.iml" />
     </modules>
   </component>
 </project>

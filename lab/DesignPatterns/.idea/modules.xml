@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns.iml" filepath="$PROJECT_DIR$/design-patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LearningClojure/learning-clojure.iml" filepath="$PROJECT_DIR$/../LearningClojure/learning-clojure.iml" />
     </modules>
   </component>
 </project>

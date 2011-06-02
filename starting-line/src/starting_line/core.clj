@@ -29,18 +29,19 @@
     (map #(statistics-for % options)))]
     lines))
 
-(defn -main [& args]
-  (let [args (remove keyword? args)
-        options (clargon
-      args
-      (required ["--file" "The log file to parse"])
-      (required ["--statistics" "The statistics to display"] #(map keyword (.split (or % "") ",")))
-      (optional ["--start" "Time to start capturing" :default "00:00:00"] #(parse hms %))
-      (optional ["--end" "Time to end capturing" :default "23:59:59"] #(parse hms %)))]
-    (doseq [l (all-lines options)]
-      (apply println l))))
+;(defn -main [& args]
+;args (remove keyword? args)
+(let [options (clargon *command-line-args*
+  (required ["--file" "The log file to parse"])
+  (required ["--statistics" "The statistics to display"] #(map keyword (.split (or % "") ",")))
+  (optional ["--start" "Time to start capturing" :default "00:00:00"] #(parse hms %))
+  (optional ["--end" "Time to end capturing" :default "23:59:59"] #(parse hms %)))]
+  (println options)
+  (doseq [l (all-lines options)]
+    (apply println l)))
+;)
 
-(comment (-main "--file" "example.log" "--statistics" "foos,bars"))
+;(comment (-main "--file" "example.log" "--statistics" "foos,bars"))
 
 
 

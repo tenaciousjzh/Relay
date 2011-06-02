@@ -17,6 +17,17 @@
               <file url="file://$PROJECT_DIR$/../relay-lab/src/test/clojure/testapp.clj" />
             </files>
           </module>
+          <module name="starting-line">
+            <files>
+              <file url="file://$PROJECT_DIR$/../starting-line/src/main/clojure/app.clj" />
+              <file url="file://$PROJECT_DIR$/../starting-line/src/main/clojure/org/relay/app.clj" />
+              <file url="file://$PROJECT_DIR$/../starting-line/src/main/clojure/org/relay/starting_line.clj" />
+              <file url="file://$PROJECT_DIR$/../starting-line/src/scripts/runtests.clj" />
+              <file url="file://$PROJECT_DIR$/../starting-line/src/test/clojure/test/org/relay/starting_line_spec.clj" />
+              <file url="file://$PROJECT_DIR$/../starting-line/src/test/clojure/test/org/relay/testapp.clj" />
+              <file url="file://$PROJECT_DIR$/../starting-line/src/test/clojure/testapp.clj" />
+            </files>
+          </module>
         </modules>
       </facet-type>
     </autodetection-disabled>
@@ -43,6 +54,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../relay-lab/pom.xml" />
+        <option value="$PROJECT_DIR$/../starting-line/pom.xml" />
         <option value="$PROJECT_DIR$/../starting-line/pom.xml" />
       </list>
     </option>

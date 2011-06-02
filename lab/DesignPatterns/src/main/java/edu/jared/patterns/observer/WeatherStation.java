@@ -1,11 +1,12 @@
 package edu.jared.patterns.observer;
 
-/**
- * Created by IntelliJ IDEA.
- * User: jared
- * Date: 6/1/11
- * Time: 11:36 PM
- * To change this template use File | Settings | File Templates.
- */
 public class WeatherStation {
+    public static void main(String[] args) {
+        WeatherData weatherData = new WeatherData();
+
+        CurrentConditionsDisplay currentConditionsDisplay = new CurrentConditionsDisplay(weatherData);
+        weatherData.setMeasurements(80, 65, 30.4f);
+        weatherData.setMeasurements(82, 70, 29.2f);
+        weatherData.setMeasurements(78, 90, 29.2f);
+    }
 }

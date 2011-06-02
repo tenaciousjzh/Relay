@@ -21,6 +21,7 @@
     <orderEntry type="library" name="Maven: clargon:clargon:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: clj-time:clj-time:0.1.0-RC1" level="project" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:1.6" level="project" />
+    <orderEntry type="library" name="Maven: lein-run:lein-run:1.0.0" level="project" />
   </component>
 </module>
 

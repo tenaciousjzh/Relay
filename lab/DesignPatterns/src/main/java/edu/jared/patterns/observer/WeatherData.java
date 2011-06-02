@@ -1,11 +1,41 @@
 package edu.jared.patterns.observer;
 
-/**
- * Created by IntelliJ IDEA.
- * User: jared
- * Date: 6/1/11
- * Time: 10:59 PM
- * To change this template use File | Settings | File Templates.
- */
-public class WeatherData {
+import java.util.ArrayList;
+import java.util.Observable;
+
+public class WeatherData extends Observable {
+    private ArrayList<java.util.Observer> observers;
+    private float temperature;
+    private float humidity;
+    private float pressure;
+
+    public WeatherData() {
+
+    }
+
+    public void measurementsChanged() {
+        setChanged();
+        notifyObservers();
+    }
+
+    public void setMeasurements(float temperature, float humidity, float pressure) {
+        this.temperature = temperature;
+        this.humidity = humidity;
+        this.pressure = pressure;
+        measurementsChanged();
+    }
+
+    public float getTemperature() {
+        return temperature;
+    }
+
+    public float getHumidity() {
+        return humidity;
+    }
+
+    public float getPressure() {
+        return pressure;
+    }
+
+
 }

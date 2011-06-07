@@ -73,71 +73,52 @@
     <favorites_list name="DesignPatterns" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DecoratorPattern.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/DecoratorPattern.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Beverage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/Beverage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CondimentDecorator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/CondimentDecorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="44" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Espresso.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/Espresso.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HouseBlend.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/HouseBlend.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mocha.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/Mocha.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StarbuzzCoffee.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/StarbuzzCoffee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="88" selection-start="755" selection-end="755" vertical-scroll-proportion="0.45438898">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="starbuzz_coffee.clj" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/starbuzz_coffee.clj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="36" column="21" selection-start="778" selection-end="799" vertical-scroll-proportion="0.7605634">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Whip.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/jared/patterns/decorator/Whip.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="16" column="57" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mini_duck_simulator.clj" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/strategy/mini_duck_simulator.clj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="StarbuzzCoffee.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/jared/patterns/decorator/StarbuzzCoffee.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -151,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/edu/jared/patterns/observer/DisplayElement.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/jared/patterns/observer/WeatherStation.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/jared/patterns/observer/WeatherData.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/jared/patterns/observer/CurrentConditionsDisplay.java" />
@@ -167,6 +147,7 @@
         <option value="$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/Whip.java" />
         <option value="$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/Soy.java" />
         <option value="$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/StarbuzzCoffee.java" />
+        <option value="$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/starbuzz_coffee.clj" />
       </list>
     </option>
   </component>
@@ -419,36 +400,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="observer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design-patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="decorator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -475,6 +426,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/observer" />
       <recent name="$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator" />
       <recent name="$PROJECT_DIR$/../LearningClojure" />
     </key>
@@ -512,7 +464,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="learning-clojure" />
+      <module name="design-patterns" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -701,7 +653,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1676" height="1028" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -714,7 +666,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24953903" sideWeight="0.6710671" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24953903" sideWeight="0.6710671" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -771,32 +723,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/jared/patterns/observer/CurrentConditionsDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="109" selection-start="453" selection-end="535" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/jared/patterns/observer/WeatherStation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/observer/weather_station.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Principle05.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="66" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LearningClojure/Principle05.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -811,6 +737,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/jared/patterns/decorator/CondimentDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="44" selection-start="143" selection-end="143" vertical-scroll-proportion="0.061962135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/jared/patterns/decorator/Beverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="27" selection-start="227" selection-end="227" vertical-scroll-proportion="0.14457831">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/DecoratorPattern.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -818,65 +758,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/Beverage.java">
+    <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/observer/ObserverPattern.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/Mocha.java">
+    <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/observer/weather_station.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+        <state line="19" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="0.39242685">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/HouseBlend.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/jared/patterns/decorator/Soy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+        <state line="23" column="56" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/Espresso.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/jared/patterns/decorator/Whip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+        <state line="16" column="57" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/CondimentDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/jared/patterns/decorator/StarbuzzCoffee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="44" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/DarkRoast.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/jared/patterns/decorator/DarkRoast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="201" selection-end="201" vertical-scroll-proportion="0.19251336">
+        <state line="9" column="5" selection-start="201" selection-end="201" vertical-scroll-proportion="0.19251336">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/Whip.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/jared/patterns/decorator/Espresso.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="57" selection-start="395" selection-end="395" vertical-scroll-proportion="0.342246">
+        <state line="2" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.04278075">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/Soy.java">
+    <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/strategy/mini_duck_simulator.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="56" selection-start="542" selection-end="542" vertical-scroll-proportion="0.49197862">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/StarbuzzCoffee.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/jared/patterns/decorator/Mocha.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="88" selection-start="755" selection-end="755" vertical-scroll-proportion="0.45438898">
+        <state line="1" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.021390375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/jared/patterns/decorator/HouseBlend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.04278075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearningClojure/src/main/clojure/edu.jared/patterns/decorator/starbuzz_coffee.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="21" selection-start="778" selection-end="799" vertical-scroll-proportion="0.7605634">
           <folding />
         </state>
       </provider>
